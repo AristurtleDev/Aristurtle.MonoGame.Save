@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PngExample", "PngExample\PngExample.csproj", "{D1398789-6201-4609-926C-49BEEFDB23E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinExample", "BinExample\BinExample.csproj", "{98DBEFDD-AA94-40BE-BB34-859D55CDF890}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1398789-6201-4609-926C-49BEEFDB23E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1398789-6201-4609-926C-49BEEFDB23E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1398789-6201-4609-926C-49BEEFDB23E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1398789-6201-4609-926C-49BEEFDB23E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98DBEFDD-AA94-40BE-BB34-859D55CDF890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98DBEFDD-AA94-40BE-BB34-859D55CDF890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98DBEFDD-AA94-40BE-BB34-859D55CDF890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98DBEFDD-AA94-40BE-BB34-859D55CDF890}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
