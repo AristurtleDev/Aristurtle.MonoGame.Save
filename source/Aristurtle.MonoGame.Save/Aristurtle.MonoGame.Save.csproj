@@ -4,7 +4,37 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Version>0.0.1</Version>
   </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>Christopher Whitley</Authors>
+    <Company>Aristurtle</Company>
+    <Copyright>Copyright (c) 2023 Christopher Whitley</Copyright>
+    <PackageId>Aristurtle.MonoGame.Save</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>
+      MonoGame;Save;png;bin
+    </PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <PacakgeProjectUrl>https://github.com/AristurtleDev/Aristurtle.MonoGame.Save</PacakgeProjectUrl>
+    <RepositoryUrl>https://github.com/AristurtleDev/Aristurtle.MonoGame.Save</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryBranch>main</RepositoryBranch>
+    <Description>
+      A MonoGame library that can be used to create save data for your game that is compressed and
+      checksummed.  Can be saved as a PNG image file with the save data embedded or as a flat file.
+    </Description>
+    <NeutralLanguage>en</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath=""/>
+    <None Include="..\..\.nuget\icon.png" Pack="true" PackagePath="" />
+    <None Include="$(OutDir)Aristurtle.MonoGame.Save.xml" pack="true" PackagePath="lib\net6.0"/>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.1.303" PrivateAssets="All" />
