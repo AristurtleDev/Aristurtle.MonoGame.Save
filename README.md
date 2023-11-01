@@ -24,8 +24,8 @@ Since the data is written to a PNG chunk, a checksum value is created and used a
 
 To load the data, just use the `SaveFileReader.FromPng` to load that same png back in
 
-### SaveFileWRiter.ToBin
-The `SaveFileWRiter.ToBin` method will create a binary encoded file that contains the save data.  The binary file created has a unique signature header appeneded that to signify it's ment to be read by this library, followed by the data len, the data chunk, then finally the checksum of the data.  When reading the data back in, the checksum is used to validate data integrity
+### SaveFileWriter.ToBin
+The `SaveFileWriter.ToBin` method will create a binary encoded file that contains the save data.  The binary file created has a unique signature header appeneded that to signify it's ment to be read by this library, followed by the data len, the data chunk, then finally the checksum of the data.  When reading the data back in, the checksum is used to validate data integrity
 
 To load the data, just use the `SaveFileReader.FromBin` method.
 
