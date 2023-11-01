@@ -75,7 +75,7 @@ public static partial class SaveFileWriter
     }
 
     /// <summary>
-    ///     Creates a new .png file using the given <paramref name="texture"/> and embeds the give
+    ///     Creates a new .png file using the given <paramref name="pixels"/> and embeds the give
     ///     <paramref name="data"/> into the .png as a SAVE chunk.
     /// </summary>
     /// <param name="path">
@@ -101,7 +101,7 @@ public static partial class SaveFileWriter
         ToPng(stream, data, width, height, pixels);
     }
     /// <summary>
-    ///     Creates a new .png file using the given <paramref name="texture"/> and embeds the give
+    ///     Creates a new .png file using the given <paramref name="pixels"/> and embeds the give
     ///     <paramref name="data"/> into the .png as a SAVE chunk.
     /// </summary>
     /// <param name="stream">

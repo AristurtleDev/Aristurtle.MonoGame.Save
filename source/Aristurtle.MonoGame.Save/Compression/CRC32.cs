@@ -23,8 +23,8 @@ SOFTWARE.
 ---------------------------------------------------------------------------- */
 
 ///////////////////////////////////////////////////////////////////////////////
-/// This is a C# port from the code provided at 
-/// https://www.w3.org/TR/2003/REC-PNG-20031110/#D-CRCAppendix
+// This is a C# port from the code provided at 
+// https://www.w3.org/TR/2003/REC-PNG-20031110/#D-CRCAppendix
 ///////////////////////////////////////////////////////////////////////////////
 
 namespace Aristurtle.MonoGame.Save.Compression;

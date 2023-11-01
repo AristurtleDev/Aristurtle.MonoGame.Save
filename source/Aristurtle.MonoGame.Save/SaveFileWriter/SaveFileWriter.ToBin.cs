@@ -26,6 +26,9 @@ using Aristurtle.MonoGame.Save.Compression;
 
 namespace Aristurtle.MonoGame.Save;
 
+/// <summary>
+///     Contains methods for writing save file data using this library.
+/// </summary>
 public static partial class SaveFileWriter
 {
     /// <summary>
@@ -48,7 +51,7 @@ public static partial class SaveFileWriter
     /// <summary>
     ///     Creates a new save file containg the given <paramref name="data"/>
     /// </summary>
-    /// <param name="stream">
+    /// <param name="fileStream">
     ///     The <see cref="System.IO.FileStream"/> to write the save data.
     /// </param>
     /// <param name="data">

@@ -24,8 +24,11 @@ SOFTWARE.
 
 namespace Aristurtle.MonoGame.Save;
 
+/// <summary>
+///     Defines an exception that is thrown when the signature from a file read is invalid.
+/// </summary>
 public class InvalidSignatureException : Exception
 {
-    public InvalidSignatureException(string message, Exception? innerException = default)
+    internal InvalidSignatureException(string message, Exception? innerException = default)
     : base(message, innerException) { }
 }

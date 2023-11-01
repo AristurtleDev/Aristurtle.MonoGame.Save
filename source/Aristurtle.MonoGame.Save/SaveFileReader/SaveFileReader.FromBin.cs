@@ -22,11 +22,13 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ---------------------------------------------------------------------------- */
 
-using System.Buffers.Binary;
 using Aristurtle.MonoGame.Save.Compression;
 
 namespace Aristurtle.MonoGame.Save;
 
+/// <summary>
+///     Contains methods for reading save file data written with this library.
+/// </summary>
 public static partial class SaveFileReader
 {
     /// <summary>
